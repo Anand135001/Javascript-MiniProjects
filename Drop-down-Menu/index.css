@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(60deg, rgb(78, 6, 78), rgb(31, 238, 31));
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.inside{
+    width: 20rem;
+}
+/* ======= search bar ========= */
+#selectField{
+    width: 100%;
+    padding: 1rem 2rem;
+    margin-bottom: 2rem;
+    box-sizing: border-box;
+    background-color: white;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 1rem;
+    
+}
+/* ===== enter input ====== */
+input{
+    padding: 0.4rem 1.3rem;
+    width: 80%;
+    border: none;
+    background-color: whitesmoke;
+    border-radius: 8%;
+}
+/* ===== icon-img ===== */
+#selectField img{
+    width: 1.4rem;
+    margin-left: 0.4rem;
+}
+#list{
+    width: 100%;
+    background: white;
+    /* border-radius: 1rem; */
+    overflow: hidden;
+    max-height: 14rem;
+    overflow-y: auto ;
+}
+.options{
+    width: 100%;
+    padding: 1rem;
+    list-style: none;
+    cursor: pointer;
+    box-sizing: border-box;
+}
+
+/* ===== hover color ==== */
+.options:hover{
+    background-color:aqua;
+}
+
+/* == Hide class crated in js == */
+.hide{
+    visibility: hidden;
+}
+ #selectText{
+    /* border:none; */
+    padding: 0.4rem;
+    width: 80%;
+ }
