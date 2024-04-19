@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drag & Drop</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            background:linear-gradient(60deg , rgb(104, 104, 19), rgb(6, 51, 6));
+        }
+        .box1{
+           width: 100%;
+           min-height: 100vh;
+           display: flex;
+           align-items: center;
+           justify-content: center;
+        }
+        .Drag, .Drop{
+           width: 18rem;
+           min-width: 25rem;
+           margin: 1.3rem;
+           min-height: 20rem;
+           background-color: yellow;
+           border: 2px dashed white;
+        }
+        .item{
+            background: pink;
+            height: 4rem;
+            color: black;
+            font-weight: 800;
+            margin: 2rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: grab;
+        }
+
+        
+    </style>
+</head>
+<body>
+    <div class="box1">
+        <div class="Drag">
+            <div class="item" draggable="true">Item 1</div>
+            <div class="item" draggable="true">Item 2</div>
+            <div class="item" draggable="true">Item 3</div>
+        </div>
+        <div class="Drop"></div> 
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>
