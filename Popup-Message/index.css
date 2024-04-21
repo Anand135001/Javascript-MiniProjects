@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.box{
+    width: 100%;
+    height: 100vh;
+    background: rgb(36, 33, 33);
+    display: flex;
+    align-items: center;
+    justify-content: center;    
+}
+/* ======== login button ======== */
+.sub-btn{
+    padding: 0.6rem 0.9rem;
+    cursor: pointer;
+    outline: none;
+    font-size: 1rem;
+    border-radius: 30%;
+    font-weight: 600;
+    border: 0;
+    background-color: white;
+}
+/* ========== popup msg ========= */
+.popup{
+    /* display: none; */
+    width: 26rem;
+    background:whitesmoke;
+    position: absolute;
+    border-radius: 2%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding: 0 2rem 2rem;
+    text-align: center;
+}
+span{
+    padding: 2rem ;
+    background: green;
+    color: white;
+  font-weight: 900;
+  font-size: 2rem;
+  border-radius: 50%;
+}
+h2{
+    margin-top: 2.5rem;
+    font-weight: 800;
+}
+p{
+    margin-top: 1rem;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+/* ========= ok button ========= */
+.start-btn{
+    margin-top: 2rem;
+    padding: 0.5rem 0.8rem;
+    font-size: 1rem;
+    font-weight: 600;
+    background: green;
+    border: 0;
+    outline: none;
+    cursor: pointer;
+    border-radius: 8%;
+}
